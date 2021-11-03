@@ -1,7 +1,10 @@
 {
-  "name": "js-utils",
+  "name": "js-utils-simple",
   "version": "1.0.0",
   "description": "Simple utils for working with JS",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

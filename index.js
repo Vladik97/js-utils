@@ -3,7 +3,9 @@ function getRandomNumber(max) {
 }
 
 function roundToInteger(num) {
-    return Math.round(num)
+    const isValidValue = typeof num === "number"
+
+    return isValidValue ? Math.round(num) : 'invalid value'
 }
 
 module.exports = { getRandomNumber, roundToInteger }
